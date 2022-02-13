@@ -1,0 +1,10 @@
+Revealing of Cells 
+	As the Hero moves, cells around them(8 in total) are revealed each time. The method revealNeighbours() takes the input of a position. This is fulfilled by
+inputting the position of the Cell the hero currently is standing on, which we use for other things and have available readily. This is achievable due to the presence of
+the Position object wihtin the Cell object. Alternatively, this can also be done by getting thePosition of the Hero which is set just a line earlier to the cell's position.
+The usage of position in this manner(within other objects) allows for a very smooth and understnadable movement
+
+Checking of Collision
+	As the hero and monsters move, collision is checked for to see if they are on the same cell at any point. This is done by inputting the hero position at the time called. 
+This is also an easy operation as Hero contains it's Position. Position indicates the position in the Cell array, so through indexing the corresponding cell can quickly be found
+and used to check.
