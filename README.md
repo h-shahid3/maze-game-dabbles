@@ -12,3 +12,9 @@ The player moves using the classical WASD keys, and pressing enter to update the
 The gameplay involves attempting to pick up a powerup an use it to kill the three monsters within the maze to achieve victory. If a player touches a monster without a powerup, they will die, and otherwise, they will kill it.
 
 The maze itself starts off hidden and is further revealed with each move the player makes towards a hidden area.
+
+# Gamplay Images
+
+![Startup Image](https://github.com/h-shahid3/maze-game-dabbles/blob/master/StartInstructions.png)
+
+![Maze Revealing](https://github.com/h-shahid3/maze-game-dabbles/blob/master/MazeRevealing.png)
